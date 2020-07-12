@@ -1,3 +1,5 @@
+package timeComplexity;
+
 public class FrogJmp {
     public static int jump(int x, int y, int z) {
         double myDouble = (double) (y - x) / z;

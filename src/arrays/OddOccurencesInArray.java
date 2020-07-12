@@ -1,3 +1,5 @@
+package arrays;
+
 public class OddOccurencesInArray {
     public static int findOccurence(int[] myArray) {
         int counter = 0;
