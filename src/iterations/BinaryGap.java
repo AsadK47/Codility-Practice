@@ -45,9 +45,9 @@ public class BinaryGap {
         }
 
         for (int i = 0; i < positionOfOnesInList.size() - 1; i++) {
-            int indiciesDiff = positionOfOnesInList.get(i + 1) - positionOfOnesInList.get(i) - 1;
+            int positionDiff = positionOfOnesInList.get(i + 1) - positionOfOnesInList.get(i) - 1;
 
-            longestBinaryGap = Math.max(longestBinaryGap, indiciesDiff);
+            longestBinaryGap = Math.max(longestBinaryGap, positionDiff);
         }
 
         return longestBinaryGap;
