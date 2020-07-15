@@ -35,7 +35,7 @@ package arrays;
  * all but one of the values in A occur an even number of times.
  */
 
-public class OddOccurencesInArray {
+public class OddOccurrencesInArray {
     public static int findOccurence(int[] myArray) {
         int counter = 0;
 
