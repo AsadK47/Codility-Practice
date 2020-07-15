@@ -51,6 +51,7 @@ public class CyclicRotations {
         System.out.println(Arrays.toString(rotate(new int[]{1, 2, 3}, 1)));
         System.out.println(Arrays.toString(rotate(new int[]{}, 1)));
     }
+
     public static int[] rotate(int[] A, int K) {
         if (A == null || A.length == 0) {
             return A;
